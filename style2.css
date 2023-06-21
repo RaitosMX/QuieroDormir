@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0f2772;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px;
+    color: #000000;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0b890b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.destacados {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.mascota {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #0f2772;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.galeria {
+    padding: 20px;
+    text-align: center;
+}
+
+.producto {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.producto img {
+    width: 150px;
+    height: 150px;
+}
+
+.producto h3 {
+    margin: 10px 0;
+}
+
+.producto p {
+    margin: 5px 0;
+}
+
+/* Modificación para mostrar un banner de animales */
+.banner {
+    background-image: url(banner.jpg);
+}
+
+.banner h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.banner .btn {
+    background-color: #0b890b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Estilos responsive */
+
+@media (max-width: 768px) {
+    .mascota,
+    .producto {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
